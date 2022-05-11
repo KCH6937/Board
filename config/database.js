@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 const dbInfo = { 
-    host: 'localhost', // 사용할 DB가 설치된 호스트의 IP
-    port: '3306', // DB를 설치할 때 사용자가 지정한 포트번호. default: 3306
+    host: '127.0.0.1', // 사용할 DB가 설치된 호스트의 IP
+    port: 3307,
     user: 'root', // DB의 user이름
-    password: '1234', // DB를 설치할 때 사용자가 지정한 비밀번호
+    password: '0725', // DB를 설치할 때 사용자가 지정한 비밀번호
     database: 'board_db' // 사용할 DB의 이름
 };
 
